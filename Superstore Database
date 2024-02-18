@@ -49,7 +49,7 @@ ORDER BY price;
 SELECT item_name, category, average_rating
 FROM superstore
 ORDER BY average_rating DESC
-LIMIT 5
+LIMIT 5;
 
 
 
