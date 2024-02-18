@@ -45,7 +45,7 @@ FROM superstore
 WHERE category = "Kitchen Supplies" AND price < 50
 ORDER BY price;
 
-#Show top 5 rated items and thei category.
+#Show top 5 rated items and their category.
 SELECT item_name, category, average_rating
 FROM superstore
 ORDER BY average_rating DESC
